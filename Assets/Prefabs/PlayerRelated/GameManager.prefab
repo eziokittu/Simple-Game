@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8495081614858889560
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8495081614858889562}
+  - component: {fileID: 8495081614858889561}
+  - component: {fileID: 1332107070572987284}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8495081614858889562
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8495081614858889560}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8495081614858889561
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8495081614858889560}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 158ffbb1657ab1c4187284e475562f69, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myLight: {fileID: 9019693274312414128, guid: 96fdadcaab519ae44a71ff98fff7b063, type: 3}
+  player: {fileID: 6607777064607177025, guid: 647c3581c31ddde48934412ffecdce32, type: 3}
+  nextLevelDelay: 1.5
+  levelRestartDelay: 1.5
+  groundTexture: {fileID: 0}
+--- !u!114 &1332107070572987284
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8495081614858889560}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 271d850be7b8f464d89a6b5056847cf3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  groundTextures:
+  - {fileID: 2800000, guid: 1868188936c7ec44cb0b66ec0f948376, type: 3}
+  - {fileID: 2800000, guid: b829efc339a4de34f8c83ba2ddb2a7f8, type: 3}
+  - {fileID: 2800000, guid: c1453791e94afcd44874935a5eddad2e, type: 3}
+  - {fileID: 2800000, guid: ca4f2eb45a2bc59449d63b1edc8a6334, type: 3}
