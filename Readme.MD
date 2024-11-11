@@ -6,4 +6,4 @@
 <br>
 <p>You have to UNZIP this file "Simple Box Game version 0.5 (x86).rar" and EXTRACT to a folder. Then simple open the EXE file to play the game.</p>
 <br>
-<p>You can also download the game from the platform  [ITCH IO](https://eziokittu.itch.io/simple-game)</p>
+<p>You can also download the game from the platform - ITCH IO -- https://eziokittu.itch.io/simple-game/ </p>
